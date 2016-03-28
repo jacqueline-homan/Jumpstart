@@ -16,7 +16,7 @@ let printNumbers min max =
     for i in min..max do
         printfn "%i %i" x (square x)
 (printNumbers 10 20)
-printfn "OK. Something is wrong here. The square of 42 is 1724, NOT 1764. WTF!?!?!?! "
+printfn "OK. Well that was interesting... "
 printfn ""
 
 let randomPosition() =
